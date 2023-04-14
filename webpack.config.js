@@ -7,7 +7,7 @@ export default {
     outputModule: true,
     topLevelAwait: true,
   },
-  entry: join(__dirname, "dist", "server", "index.mjs"),
+  entry: join(__dirname, "dist", "server", "main.mjs"),
   mode: "production",
   target: "node",
   output: {
